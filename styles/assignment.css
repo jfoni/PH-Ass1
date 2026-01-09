@@ -140,3 +140,52 @@ nav .list-container h4 {
 .banner-buttons .btn-outline span {
     order: 2;
 }
+
+#instruction {
+    padding-top: 50px;
+}
+
+#instruction .instruction-container {
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+#instruction .instruction-container .instruction-box {
+    display: flex;
+    gap: 24px;
+    margin: 0 auto;
+    padding-top: 44px;
+}
+
+.instruction-box .instruction-card {
+    background: #ffffff;
+    padding: 40px 20px;
+    max-width: 260px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border: 1px solid #f0f0f0;
+}
+
+.instruction-card img {
+    width: 28px;
+    height: 28px;
+    background-color: #F95555;
+    padding: 16px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+.instruction-card h3 {
+    font-size: 24px;
+    font-weight: 500px;
+    color: #001931;
+    margin-bottom: 20px;
+}
+
+.instruction-card p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 30px;
+}
